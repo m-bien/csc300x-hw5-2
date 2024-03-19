@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--- Madelyn Good, HW5-2, full stack jokebook using node/express -->
+
+<head>
+    <meta charset="utf-8">
+    <title>mrgood | Jokebook</title>
+    <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/basic-8/97/4-512.png">
+    <link rel="stylesheet" href="style.css">
+    <script src='script.js' defer></script>
+</head>
+
+<body>
+    <h2>Jokebook</h2>
+
+    <section class="container">
+        <div class="column left">
+            <h3>Random Joke</h3>
+            <button id="getRandomJoke">Get Random Joke</button>
+            <p id="showJoke"></p>
+        </div>
+
+        <div class="column right">
+            <h3>Add Joke</h3>
+
+            <form id="add-joke-form" class="add-joke-form">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="funnyJoke">Funny Joke</option>
+                    <option value="lameJoke">Lame Joke</option>   
+                </select>
+                <br>
+                <label for="joke">Question:</label>
+                <input type="text" id="joke" required placeholder="why did chicken cross the road">
+                <br>
+                <label for="response">Answer: &nbsp</label>
+                <input type="text" id="response" required placeholder="to get to other side">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+<footer>
+    <p>rip CSC 300X HW5-2 | Madelyn Good</p>
+</footer>
+
+</html>

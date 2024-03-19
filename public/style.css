@@ -1,0 +1,77 @@
+/* --- overall styles --- */
+body {
+    font-family: 'Verdana';
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* --- columns --- */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    background-color: white;
+    box-shadow: 0 3px 10px 0 lightgray;
+}
+
+.left {
+    width: 30%;
+    padding: 5px 35px 35px 35px;
+    margin: 14px 7px;
+    border: 2px solid lightsteelblue;
+}
+
+.right {
+    width: 30%;
+    padding: 5px 35px 35px 35px;
+    margin: 14px 7px;
+    border: 2px solid lightgray;
+}
+
+/* --- form --- */
+input {
+    font-family: 'Verdana';
+    margin-bottom: 15px;
+    border: 1.5px solid lightgray;
+    padding: 5px 10px;
+    width: 70%;
+}
+
+input:focus {
+    border: 1.5px solid black;
+    outline: none;
+}
+
+select {
+    font-family: 'Verdana';
+    margin-bottom: 15px;
+    border: 1.5px solid lightgray;
+    padding: 3px 5px;
+}
+
+button {
+    background-color: rgb(230, 229, 229);
+    padding: 5px 12px;
+    font-weight: bold;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    border: 1.5px solid black;
+}
